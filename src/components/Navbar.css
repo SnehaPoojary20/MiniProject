@@ -1,0 +1,38 @@
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .signin-btn, .login-btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signin-btn {
+    background-color: #ddd;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  

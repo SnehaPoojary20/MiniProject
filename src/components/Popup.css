@@ -1,0 +1,22 @@
+/* Add this to App.css */
+.popup-overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+.popup-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup {
+  transform: translateY(-20px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-overlay.show .popup {
+  transform: translateY(0);
+}
+
+

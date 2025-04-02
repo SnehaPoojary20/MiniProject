@@ -1,0 +1,55 @@
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f4fc; /* Soft pastel purple */
+  }
+  
+  .upload-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  h2 {
+    color: #6c5ce7; /* Pastel purple */
+  }
+  
+  input[type="file"] {
+    margin: 15px 0;
+  }
+  
+  .upload-btn {
+    background-color: #a29bfe; /* Light pastel blue */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background-color: #6c5ce7; /* Darker pastel purple */
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #0984e3; /* Pastel blue link */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
